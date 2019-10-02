@@ -1,0 +1,49 @@
+# Created at 2019-10-02T17:53:04.719
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-10-02T17:53:06.675
+Unexpected IOException with stream: 2019-10-02 17:53:06.673  WARN 1840 --- [           main] org.jgroups.protocols.pbcast.GMS         : DESKTOP-VIURTDK-46703: JOIN(DESKTOP-VIURTDK-46703) sent to DESKTOP-VIURTDK-11460 timed out (after 5000 ms), on try 9
+
+
+# Created at 2019-10-02T17:53:12.011
+Unexpected IOException with stream: 2019-10-02 17:53:12.007  WARN 1840 --- [           main] org.jgroups.protocols.pbcast.GMS         : DESKTOP-VIURTDK-46703: JOIN(DESKTOP-VIURTDK-46703) sent to DESKTOP-VIURTDK-9233 timed out (after 5000 ms), on try 9
+
+
+# Created at 2019-10-02T17:53:12.012
+Unexpected IOException with stream: 2019-10-02 17:53:12.012  WARN 1840 --- [           main] org.jgroups.protocols.pbcast.GMS         : DESKTOP-VIURTDK-46703: too many JOIN attempts (10): becoming singleton
+
+
+# Created at 2019-10-02T17:53:12.841
+Unexpected IOException with stream: 2019-10-02 17:53:12.841  INFO 1840 --- [           main] org.infinispan.CLUSTER                   : ISPN000094: Received new cluster view for channel cluster-1: [DESKTOP-VIURTDK-46703|0] (1) [DESKTOP-VIURTDK-46703]
+
+
+# Created at 2019-10-02T17:53:12.858
+Unexpected IOException with stream: 2019-10-02 17:53:12.856  INFO 1840 --- [           main] o.i.r.t.jgroups.JGroupsTransport         : ISPN000079: Channel cluster-1 local address is DESKTOP-VIURTDK-46703, physical addresses are [127.0.0.1:7800]
+
+
+# Created at 2019-10-02T17:53:14.300
+Unexpected IOException with stream: 2019-10-02 17:53:14.299  INFO 1840 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+
+
+# Created at 2019-10-02T17:53:14.725
+Unexpected IOException with stream: 2019-10-02 17:53:14.725  INFO 1840 --- [           main] pringInfinispanCacheDemoApplicationTests : Started SpringInfinispanCacheDemoApplicationTests in 136.929 seconds (JVM running for 139.311)
+
+
+# Created at 2019-10-02T17:53:14.931
+Unexpected IOException: 5,1,com.example.demo.SpringInfinispanCacheDemoApplicationTests,contextLoads(com.example.demo.SpringInfinispanCacheDemoApplicationTests),null,null,null
+
+
+# Created at 2019-10-02T17:53:15.216
+Unexpected IOException: 6,1,com.example.demo.SpringInfinispanCacheDemoApplicationTests,contextLoads(com.example.demo.SpringInfinispanCacheDemoApplicationTests),null,null,null
+
+
+# Created at 2019-10-02T17:53:15.217
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,com.example.demo.SpringInfinispanCacheDemoApplicationTests,null,null,null
+
+

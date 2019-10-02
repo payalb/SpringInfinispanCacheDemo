@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<infinispan xmlns="urn:infinispan:config:9.4">
+	<cache-container>
+		<local-cache-configuration
+			name="extended-template">
+			<expiration interval="10000" lifespan="10" max-idle="10" />
+			<memory>
+				<object size="2000" />
+			</memory>
+		</local-cache-configuration>
+
+
+		<local-cache name="local"
+			configuration="extended-template" />
+	</cache-container>
+</infinispan>
