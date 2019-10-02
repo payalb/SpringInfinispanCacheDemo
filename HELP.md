@@ -1,3 +1,5 @@
+export AWS_SECRET_ACCESS_KEY=ei1WwPpXMf6GSdumSJv1XAEYnBju9r6PQnotffyD
+export AWS_ACCESS_KEY_ID=AKIA56PW3P4JAXMYIEKN
 
 
 This will make you even more productive and your code less verbose!
